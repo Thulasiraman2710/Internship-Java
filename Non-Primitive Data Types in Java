@@ -1,0 +1,17 @@
+enum Color {
+  YELLOW,
+  RED,
+  BLACK;
+}
+public class Main {
+  public static void main (String [] args){
+    String str = "Good Morning";
+    int[] arr = {2,7,1,0,3};
+    Color clr = Color.BLACK;
+    System.out.println(clr);
+    System.out.println(str);
+    for (int member: arr){
+      System.out.println(member+",");
+    }
+  }
+}
