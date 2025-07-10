@@ -1,0 +1,55 @@
+public class Main {  
+    public static void main(String[] args)  
+    {  
+  System.out.println(24<<5); 
+  System.out.println(27<<103);
+  System.out.println(18>>4);
+  System.out.println(30>>3);
+  System.out.println(16>>1);
+  System.out.println(16>>>1);
+  System.out.println(-16>>1);
+  System.out.println(-16>>>1);
+  int a=27;
+  int b=10;
+  int c=24;
+  System.out.println("(a<b):" +(a<b));
+  System.out.println("(a>b):" +(a>b));
+  System.out.println("(a<=b):" +(a<=b));
+  System.out.println("(a>=b):" +(a>=b));
+  System.out.println("(a==b):" +(a==b));
+  System.out.println("(a!=b):" +(a!=b));
+  System.out.println("The value of a | b is: " + (a | b));
+  System.out.println("The value of a & b is: " + (a & b));
+  System.out.println("The value of a ^ b is: " + (a ^ b));
+  System.out.println("The value of ~a is: " + (~a));
+  if((a < b) && (++a < c))
+System.out.println("if block is executed."); 
+else
+System.out.println("else block is executed."); 
+System.out.println("The value of a is: " + a);
+System.out.println(a > b || a++ < c); 
+System.out.println("The value of a is: " + a);
+System.out.println(a < b || a++ < c); 
+System.out.println("The value of a is: " + a);
+System.out.println(!(a > b)); 
+System.out.println(!(a < b)); 
+int min=(a<b)?a:b;    
+System.out.println(min); 
+int max = (a > b) ?  (a > c ? a : c) : (b > c ? b : c);
+System.out.println("The maximum between the three numbers " + a + ", " + b + ", " + c + " " + "is: " + max );
+a+=6;
+System.out.println(a);  
+a-=8;
+System.out.println(a);  
+a*=5;
+System.out.println(a);  
+a/=1;
+System.out.println(a);  
+a %=4;
+System.out.println(a);
+a=a+b;
+System.out.println(a);
+a=(short)(a+b);
+System.out.println(a);
+  }
+} 
