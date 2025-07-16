@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TPoint Tech</title>
+</head>
+<body>
+  <h1><center> <p style="color:white">Welcome to Website</h1>
+  <p><h2><center><u><p style="color:white">This is the main homepage. Use the links below to navigate to subpages.</u></h2></p>
+  <nav>
+  <body background ="C:\Users\Thulasiraman S\Pictures\Itachi.jpg">
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="C:\Users\Thulasiraman S\Pictures\Html.jpeg"></a></li>
+      <li><a href="https://www.python.org/"><img src="C:\Users\Thulasiraman S\Pictures\Python.jpg"></a></li>
+      <li><a href="https://www.java.com/en/"><img src="C:\Users\Thulasiraman S\Pictures\java.PNG"></a></li>
+    </ul>
+  </nav>
+</body>
+</html>
