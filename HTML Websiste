@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Background Video Example</title>
+  <style>
+    /* Make the video fill the background */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    video.bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      padding-top: 20%;
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video class="bg-video" autoplay muted loop>
+    <source src="C:\Users\Thulasiraman S\Downloads\172655-847860558_small.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+<
+<h1 style="color:brown;"><center>Welcome to Website</h1>
+<p><h2 style="color:brown;"><center>This is the main homepage. Use the image below to navigate to subpages.</h2></p>
+    <ul>
+      <li><center><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="C:\Users\Thulasiraman S\Pictures\Html.jpg"></a></li>
+      <li><center><a href="https://www.python.org/"><img src="C:\Users\Thulasiraman S\Pictures\Python.jpg"></a></li>
+      <li><center><a href="https://www.java.com/en/"><img src="C:\Users\Thulasiraman S\Pictures\java.PNG"></a></li>
+    </ul>
+</body>
+</html>
