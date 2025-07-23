@@ -1,0 +1,44 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        
+        System.out.println("--- Car ---"); 
+        int count = 1;
+        do {
+            System.out.println("Lamborghini: " + count);
+            count++;
+        } while (count < 4); 
+        System.out.println("Volkswagen Group!");
+
+        
+        System.out.println("\n--- Bike ---"); 
+        int i = 1;
+        while (i < 5) {
+            System.out.println("Yamaha RX100: " + i); 
+            i++; 
+        }
+        System.out.println("Genichi Kawakami!");
+
+     
+        System.out.println("Aeroplane"); 
+        for (int j = 0; j < 6; j++) {
+            System.out.println("International Airport: " + j); 
+        }
+        System.out.println("Wright Brothers Orville & Wilbur!");
+
+        
+        System.out.println("\n--- Nested Loops Example (For inside While) ---");
+        int outerCount = 0;
+        while (outerCount < 2) {
+            System.out.println("Outer loop iteration (while): " + outerCount); 
+            for (int k = 0; k < 2; k++) {
+                System.out.println("  Inner loop iteration (for): " + k); 
+            }
+            outerCount++;
+        }
+        System.out.println("Nested loops finished!");
+
+        System.out.println("\nAll loop examples completed.");
+    }
+}
