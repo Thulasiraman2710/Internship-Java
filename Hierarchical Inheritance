@@ -1,0 +1,16 @@
+class Bank{  
+void magr(){System.out.println("Manager...");}  
+}  
+class bank1 extends Bank{  
+void asst(){System.out.println("Assistent Manager...");}  
+}  
+class bank2 extends bank1{  
+void emp(){System.out.println("Employee...");}  
+}  
+public class Main{  
+public static void main(String args[]){  
+bank2 B=new bank2();  
+B.magr(); 
+B.asst(); 
+B.emp();    
+}}  
