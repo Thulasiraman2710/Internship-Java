@@ -1,0 +1,17 @@
+abstract class College {
+    abstract void Studies();
+}
+class BTech extends College {
+    void Studies() {System.out.println("Artificial Intelligence & Data Science");}
+}
+class BE extends College {
+    void Studies() {System.out.println("Mechanical Engineering");}
+}
+public class Main {
+    public static void main(String[] args) {
+        College obj = new BTech();
+        College obj1 = new BE();
+        obj.Studies();
+        obj1.Studies();
+    }
+}
