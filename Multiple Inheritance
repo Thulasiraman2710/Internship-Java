@@ -1,0 +1,42 @@
+interface Bike {
+    void accelerates();
+}
+
+interface Body {
+    void throttle();
+}
+
+interface Car {
+    void accelerates();
+}
+
+class R15v3 implements Bike, Body {
+    public void accelerates() {
+        System.out.println("R15v3 accelerates...");
+    }
+
+    public void throttle() {
+        System.out.println("Accelerates using throttle...");
+    }
+}
+
+class SOHC implements Car, Body {
+    public void accelerates() {
+        System.out.println("SOHC acceleration...");
+    }
+
+    public void throttle() {
+        System.out.println("SOHC accelerates using throttle body...");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        R15v3 r15v3 = new R15v3();
+        SOHC sohc = new SOHC();
+
+        r15v3.throttle();
+        sohc.accelerates();
+        sohc.throttle();
+    }
+}
