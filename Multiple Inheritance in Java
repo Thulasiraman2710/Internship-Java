@@ -1,0 +1,32 @@
+interface Computer {  
+    void process();  
+}  
+interface Preipheral {  
+    void connect();  
+}  
+class Laptop implements Computer, Preipheral {  
+    public void process() {  
+        System.out.println("Laptop processes data efficiently.");  
+    }  
+    public void connect() {  
+        System.out.println("Laptop connects to WiFi and Bluetooth.");  
+    }  
+}  
+class Desktop implements Computer, Preipheral {  
+    public void process() {  
+        System.out.println("Desktop processes heavy tasks quickly.");  
+    }  
+    public void connect() {  
+        System.out.println("Desktop connects via Ethernet and USB.");  
+    }
+}
+public class Main {  
+    public static void main(String[] args) {  
+        Laptop laptop = new Laptop();  
+        Desktop desktop = new Desktop();  
+        laptop.process();
+        laptop.connect();
+        desktop.process();
+        desktop.connect();
+    }  
+}  
