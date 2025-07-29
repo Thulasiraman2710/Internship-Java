@@ -1,4 +1,4 @@
-class Adder {   
+class Math {   
     static int add(int a, int b) {  
         return a - b;  
     }    
@@ -12,8 +12,8 @@ class Adder {
 }  
 public class Main {  
     public static void main(String[] args) {    
-        System.out.println(Adder.add(56, 34)); 
-        System.out.println(Adder.add(43, 23, 16));
-        System.out.println(Adder.add(45, 48, 98, 99, 78));  
+        System.out.println(Math.add(56, 34)); 
+        System.out.println(Math.add(43, 23, 16));
+        System.out.println(Math.add(45, 48, 98, 99, 78));  
     }  
 }
