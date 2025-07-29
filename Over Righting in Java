@@ -1,0 +1,10 @@
+class Mobile{  
+  void Infinix(){System.out.println("Infinix is a Gaming Phone");}  
+}    
+class Infinix extends Mobile{}
+public class Main{
+  public static void main(String args[]){  
+  Infinix obj = new Infinix();  
+  obj.Infinix();  
+  }  
+}
