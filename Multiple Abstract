@@ -1,0 +1,18 @@
+abstract class Shanmugasundharam {  
+  abstract void family();  
+}  
+class Kokila extends Shanmugasundharam{
+  void family(){System.out.println("Kokila is Shanmugasundharam wife");}
+}
+class Thulasiraman extends Shanmugasundharam{  
+void family(){System.out.println("Thulasiraman is Shanmugasundharam son");}  
+}
+ 
+public class Main{
+public static void main(String args[]){  
+ Shanmugasundharam obj = new Thulasiraman();   
+ Shanmugasundharam obj1 = new Kokila();
+ obj.family();
+ obj1.family();
+}  
+} 
